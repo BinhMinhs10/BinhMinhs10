@@ -11,3 +11,15 @@ Ctrl + alt + p
 ```
 or
 insert > code snippet
+## 5. Mount Driver
+```bash
+from google.colab import drive
+drive.mount('/gdrive')
+```
+After that enter authorization by click URL go get password
+## 6. cd 
+```bash
+import os
+os.chdir("/gdrive/My Drive/app")
+```
+![mount](mount.png)
