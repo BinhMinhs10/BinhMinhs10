@@ -4,7 +4,7 @@
 ## 2. Make **Colaboratory** (right click) 
 ## 3. Set up 
 edit > Notebook settings 
-[setup](edit.png)
+![setup](edit.png)
 ## 4. Xem docs
 ```bash
 Ctrl + alt + p
