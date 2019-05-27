@@ -9,7 +9,6 @@
 ### 2. Xem Repo theo thư mục dạng cây
 Cài extension [Octotree extension](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) trên Chrome
 
-![Screenshot](thing.png)
 ### 3. Xem lịch sử thay đổi file 
 Git blame hoặc dùng ấn phím 'b' trên màn hình
 ### 4. Phím tắt vào search trên git 
