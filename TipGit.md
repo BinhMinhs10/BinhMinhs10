@@ -14,5 +14,20 @@ Git blame hoặc dùng ấn phím 'b' trên màn hình
 ### 4. Phím tắt vào search trên git 
 Ấn phím '/'
 
- 
+## Git Command [Youtube](https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
 
+### 5. Xem lịch sử commit (author+message+date) trên remote
+$ git log
+
+### 6. Xem thông tin trên remote repository
+- information on remote
+$ git remote -v
+- list all branch on remote
+$ git branch -a 
+### 7. Xóa branch
+$ git branch -d name_branch 
+$ git push origin --delete name_branch
+### 8. Edit message affter commit
+$ git commit --amend -m "message"
+### 9. Revert 
+$ git revert head_hash
