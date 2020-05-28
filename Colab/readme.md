@@ -23,3 +23,18 @@ import os
 os.chdir("/gdrive/My Drive/app")
 ```
 ![mount](mount.png)
+
+## 7. Extension Jypyter
+[Jupyter Extension](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
+### Installation
+```bash
+conda install -c conda-forge jupyter_nbextensions_configurator
+```
+### Configurable
+* Hinterland: giúp autocomplete
+* Split Cells Notebook
+* Table of contents
+* Collapsiable Headings
+* Autopep8
+* Embedding URLs, PDFs
+
