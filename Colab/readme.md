@@ -71,6 +71,12 @@ ssh root@0.tcp.ngrok.io -p 16664
 ### Added a config
 ```bash
 echo /usr/lib64-nvidia/ > /etc/ld.so.conf.d/nvidia-lib64.conf
+```
+* realoaded the cache and links to the libraries to detect the changes made
+```bash
+ldconfig
+```
+```bash
 nvidia-smi
 ```
 ![nvidia-smi](nvidia.png)
