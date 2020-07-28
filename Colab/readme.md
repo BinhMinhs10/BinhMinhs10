@@ -80,3 +80,12 @@ ldconfig
 nvidia-smi
 ```
 ![nvidia-smi](nvidia.png)
+
+## 9. Keep connect every 60 second
+```bash
+function KeepClicking(){
+    console.log("Click");
+    document.querySelector("colab-connect-button").click()
+}
+setInterval(KeepClicking, 60000)
+```
