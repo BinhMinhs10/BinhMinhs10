@@ -31,3 +31,12 @@ $ git push origin --delete name_branch
 $ git commit --amend -m "message"
 ### 9. Revert 
 $ git revert head_hash
+### 10. Revert file after delete in local 
+* this restores the file status in the index
+```bash
+$ git reset -- <file>
+```
+* then discard changes in working directory
+```bash
+$ git checkout -- <file>
+```
