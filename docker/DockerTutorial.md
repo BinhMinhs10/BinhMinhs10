@@ -29,16 +29,11 @@ RUN apt-get install some-needed-app
 ARG tcpPort
 
 ```
-```base
-CMD base_image:latest
-```
-```base
-FROM base_image:latest
-```
 ## 3. Docker Commands
 * build Dockerfile found in directory
 ```bash
-sudo docker build .
+sudo docker build -t electra:lastes .
+sudo docker-compose -f compse.yml build
 ```
 * list all docker image
 ```bash
