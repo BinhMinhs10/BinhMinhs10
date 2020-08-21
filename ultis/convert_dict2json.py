@@ -1,5 +1,11 @@
+""" Convert file dict:
+word index
+To:
+{word: index}
+"""
 import argparse
 import json
+
 
 def main():
     parser = argparse.ArgumentParser()

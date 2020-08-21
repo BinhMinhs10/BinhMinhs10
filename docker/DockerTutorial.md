@@ -30,20 +30,31 @@ ARG tcpPort
 
 ```
 ## 3. Docker Commands
-* build Dockerfile found in directory
-```bash
-sudo docker build -t electra:lastes .
-sudo docker-compose -f compse.yml build
-```
 * list all docker image
 ```bash
 sudo docker images
+sudo docker image ls
 ```
-* docker run container
+* remove docker image
 ```bash
-sudo docker run hello-world
+sudo docker rim <image id>
 ```
 * show docker container
 ```bash
 sudo docker ps
 ```
+* build Dockerfile found in directory
+```bash
+sudo docker build -t electra:lastes .
+sudo docker-compose -f compse.yml build
+```
+* docker run in container
+```bash
+sudo docker run hello-world
+sudo docker-compose -f <compose file> up
+```
+* shutdown container
+```bash
+sudo docker-compose -f <compose file> down
+```
+
