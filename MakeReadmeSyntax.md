@@ -11,7 +11,7 @@ Kí hiệu '+' để thể hiện viết liền
 ```bash
 ![name]+(nameimage)
 ```
-![Screenshot](thing.png)
+![Screenshot](images/thing.png)
 ### 1. Make link 
 You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( )
 
