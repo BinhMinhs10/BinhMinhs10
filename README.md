@@ -3,7 +3,7 @@
 - Practice online [makereadme](https://www.makeareadme.com/) to learn more 
 ## Tip Git [tipgit](TipGit.md)
 - Contact me if you have more tip & trick
-## Usage full Command [tipgit](TipGit.md)
+## Usage full Command [console](console.md)
 - Contact me if you have more tip & trick
 ## Using Colab [googlecolab](Colab/colab.md)
 - Contact me if you have more tip & trick
