@@ -1,3 +1,5 @@
+# About Me
+I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Science, Artificial Intelligence, especially in NLP and platform related. Feel free to connect with me on Gmail or follow me on Github.
 # Tutorial fundamental
 ## Readme Syntax [readmesyntax](MakeReadmeSyntax.md) 
 - Practice online [makereadme](https://www.makeareadme.com/) to learn more 

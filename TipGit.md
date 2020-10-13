@@ -17,16 +17,23 @@ Git blame hoặc dùng ấn phím 'b' trên màn hình
 ## Git Command [Youtube](https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
 
 ### 5. Xem lịch sử commit (author+message+date) trên remote
-$ git log
-
+```bash
+git log --pretty=oneline
+```
+or show 5 most recent commits
+```bash
+git log --oneline --graph -5
+```
 ### 6. Xem thông tin trên remote repository
 - information on remote
 $ git remote -v
 - list all branch on remote
 $ git branch -a 
 ### 7. Xóa branch
+```bash
 $ git branch -d name_branch 
 $ git push origin --delete name_branch
+```
 ### 8. Edit message affter commit
 $ git commit --amend -m "message"
 ### 9. Revert 
@@ -39,4 +46,13 @@ $ git reset -- <file>
 * then discard changes in working directory
 ```bash
 $ git checkout -- <file>
+```
+### 11. Alias git commands
+```bash
+git config --global alias.show-graph 'log --graph --pretty=oneline'
+git show-graph
+```
+### 12. Empty message option
+```bash
+git commit --allow-empty-message -m "" --- no commit message
 ```
