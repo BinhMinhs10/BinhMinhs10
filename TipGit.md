@@ -54,5 +54,5 @@ git show-graph
 ```
 ### 12. Empty message option
 ```bash
-git commit --allow-empty-message -m "" --- no commit message
+git commit --allow-empty-message -m ""
 ```
