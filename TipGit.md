@@ -26,18 +26,26 @@ git log --oneline --graph -5
 ```
 ### 6. Xem thông tin trên remote repository
 - information on remote
+```bash
 $ git remote -v
+```
 - list all branch on remote
-$ git branch -a 
+```bash
+$ git branch -a
+```
 ### 7. Xóa branch
 ```bash
 $ git branch -d name_branch 
 $ git push origin --delete name_branch
 ```
 ### 8. Edit message affter commit
-$ git commit --amend -m "message"
-### 9. Revert 
-$ git revert head_hash
+```bash
+git commit --amend -m "message"
+```
+### 9. Revert head
+```bash
+git revert head_hash
+```
 ### 10. Revert file after delete in local 
 * this restores the file status in the index
 ```bash
