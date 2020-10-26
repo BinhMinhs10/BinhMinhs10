@@ -15,6 +15,7 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 - Contact me if you have more tip & trick
 ## Enjoy coding
 [Decorator](ultis/design_pattern_decorator.py)
+[Function arg](ultis/function_arguments.py)
 
 @github/BinhMinhs10
  

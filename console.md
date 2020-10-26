@@ -6,3 +6,8 @@
 ```bash
 pgrep -fl firefox && pkill -f firefox
 ```
+### 2. Open port ubuntu
+```bash
+sudo ufw allow 7000
+sudo ufw allow 10000:10050
+```
