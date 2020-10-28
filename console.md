@@ -11,3 +11,8 @@ pgrep -fl firefox && pkill -f firefox
 sudo ufw allow 7000
 sudo ufw allow 10000:10050
 ```
+### 3. Cleaning disk space
+* filter by file size
+```bash
+du -h /home/user/source_Python/ | grep '^\s*[0-9\.]\+G'
+```
