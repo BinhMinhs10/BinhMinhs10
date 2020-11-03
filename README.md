@@ -17,6 +17,5 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 * [Decorator](ultis/design_pattern_decorator.py)
 * [Function arg](ultis/function_arguments.py)
 
-@github/BinhMinhs10
- 
+[![BinhMinh's github stats](https://github-readme-stats.vercel.app/api?username=binhminhs10&theme=vue)](https://github.com/BinhMinhs10) 
 
