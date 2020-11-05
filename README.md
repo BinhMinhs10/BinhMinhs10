@@ -1,4 +1,17 @@
-# About Me
+
+<h1 align="center">About Me :cricket:</h1>
+
+<div align="center">
+
+<br>
+
+[![made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+<br>
+
+</div>
+
+
 ### Hi, I'm Minh 👋
 I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Science, Artificial Intelligence, especially in NLP and platform related. Feel free to connect with me on Gmail or follow me on Github.
 
@@ -18,4 +31,3 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 * [Function arg](ultis/function_arguments.py)
 
 [![BinhMinh's github stats](https://github-readme-stats.vercel.app/api?username=binhminhs10&theme=vue)](https://github.com/BinhMinhs10) 
-
