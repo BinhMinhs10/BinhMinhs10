@@ -2,7 +2,7 @@
 
 ## Author
    **BinhMinhs10**
-### 1. List & Kill all with string 'firefox' in command
+### 1. List & Kill all with string `firefox` in command
 ```bash
 pgrep -fl firefox && pkill -f firefox
 ```
@@ -15,4 +15,8 @@ sudo ufw allow 10000:10050
 * filter by file size
 ```bash
 du -h /home/user/source_Python/ | grep '^\s*[0-9\.]\+G'
+```
+### 4. Search word in folder
+```bash
+grep -nr 'ㅎ' .
 ```

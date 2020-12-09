@@ -47,7 +47,7 @@ Quote text with a '>'
 M says:
 > Pardon me 
 ### 5. Quoting code
-Quote code with (language : bash, c, java, python,...)
+Quote code with (language : `bash, c, java, python,...`)
 
 ```bash
 '```'+ 'language' + code + '```'
