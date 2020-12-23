@@ -37,16 +37,16 @@ sudo docker image ls
 ```
 * remove docker image
 ```bash
-sudo docker rim <image id>
+sudo docker rmi <image id>
 ```
 * show docker container
 ```bash
-sudo docker ps
+sudo docker ps -a
 ```
 * build Dockerfile found in directory
 ```bash
 sudo docker build -t electra:lastes .
-sudo docker-compose -f compse.yml build
+sudo docker-compose -f <compose file> build
 ```
 * docker run in container
 ```bash
@@ -57,4 +57,15 @@ sudo docker-compose -f <compose file> up
 ```bash
 sudo docker-compose -f <compose file> down
 ```
-
+* Remove docker container
+```bash
+docker container rm -f <container id>
+```
+# 4. Run commands in Stopped Docker Containers
+```bash
+docker commit <container id> debug/ubuntu
+docker run -it --rm --entrypoint sh debug/ubuntu
+```
+```bash
+docker exec -it <container-id> bash
+```
