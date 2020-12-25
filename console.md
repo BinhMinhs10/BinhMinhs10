@@ -20,3 +20,9 @@ du -h /home/user/source_Python/ | grep '^\s*[0-9\.]\+G'
 ```bash
 grep -nr 'ㅎ' .
 ```
+### 5. virtualenv
+* create and active virtualenv
+```bash
+virtualenv -p python3 venv
+source venv/bin/activate
+```
