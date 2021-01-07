@@ -69,3 +69,7 @@ docker run -it --rm --entrypoint sh debug/ubuntu
 ```bash
 docker exec -it <container-id> bash
 ```
+## 5. Retrieve logs until a specific point in time
+```bash
+docker logs -f --until=2s <name container>
+```
