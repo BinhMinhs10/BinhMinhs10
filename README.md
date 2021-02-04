@@ -67,3 +67,4 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 * [Function arg](ultis/function_arguments.py)
 
 [![BinhMinh's github stats](https://github-readme-stats.vercel.app/api?username=binhminhs10&theme=vue)](https://github.com/BinhMinhs10) 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BinhMinhs10&layout=compact" alt="BinhMinhs10" />
