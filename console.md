@@ -6,6 +6,10 @@
 ```bash
 pgrep -fl firefox && pkill -f firefox
 ```
+* Show device in RAM memory
+```bash
+sudo dmidecode --type 17
+```
 ### 2. Open port ubuntu
 ```bash
 sudo ufw allow 7000
