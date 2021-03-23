@@ -1,4 +1,5 @@
 from typing import Iterator, Iterable, Optional
+from tqdm import tqdm
 
 
 class IntList:
@@ -20,4 +21,8 @@ def print_numbered(items: Iterable[int]) -> None:
 
 x = IntList(3, IntList(5, None))
 print_numbered(x)  # OK
+
+print(10 * "=")
+for x in tqdm(range(1000000)):
+    pass
 print_numbered([4, 5])
