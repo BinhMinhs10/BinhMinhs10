@@ -20,11 +20,17 @@ sudo ufw allow 10000:10050
 ```bash
 du -h /home/user/source_Python/ | grep '^\s*[0-9\.]\+G'
 ```
-### 4. Search word in folder
+### 4. Pip Guide
+* Remove all items from the cache pip.
+```bash
+python -m pip cache list
+python -m pip cache purge
+```
+### 5. Search word in folder
 ```bash
 grep -nr 'ㅎ' .
 ```
-### 5. virtualenv
+### 6. virtualenv
 * create and active virtualenv
 ```bash
 virtualenv -p python3 venv
