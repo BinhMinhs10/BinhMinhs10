@@ -26,6 +26,10 @@ du -h /home/user/source_Python/ | grep '^\s*[0-9\.]\+G'
 python -m pip cache list
 python -m pip cache purge
 ```
+* List pip package size and location
+```bash
+pip list --format freeze|awk -F = {'print $1'}| xargs pip show | grep -E 'Location:|Name:' | cut -d ' ' -f 2 | paste -d ' ' - - | awk '{print $2 "/" tolower($1)}' | xargs du -sh 2> /dev/null|sort -h
+```
 ### 5. Search word in folder
 ```bash
 grep -nr 'ㅎ' .
