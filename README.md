@@ -48,6 +48,11 @@
 ### Hi, I'm Minh 👋
 I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Science, Artificial Intelligence, especially in NLP and platform related. Feel free to connect with me on Gmail or follow me on Github.
 
+
+<!-- Working GIF -->
+<img src="https://media.giphy.com/media/S6q7p6G70qH6YVupi3/giphy.gif" alt="dev_object" align="right" width="350" height="420" />
+
+
 # Tutorial fundamental
 ## Readme Syntax [readmesyntax](readme_syntax.md) 
 - Practice online [makereadme](https://www.makeareadme.com/) to learn more 
