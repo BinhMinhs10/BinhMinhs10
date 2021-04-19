@@ -1,16 +1,34 @@
 # Tutorial Docker
 # Author
    **Binh Minh**
+
+
 ## 1. Docker containers là gì?
+
+<details>
+    <summary> <b> Docker containers </b> </summary>
+
 * seperate the file system and networks between container, unless you explicitly allow it 
 * Does not have it own OS like Virtual Machine
-### 1.1 Dockerfile
+
+</details>
+
+<details>
+    <summary><b>Dockerfile</b></summary>
 * a set of instructions which are executed by docker command line tool
-### 1.2 Docker image
+</details>
+
+<details>
+    <summary><b>Docker image</b></summary>
 * executes Dockerfile produces a Docker image, all needed files and instructions
 * Possible start multiple Docker containers from same Docker image
-### 1.3 Docker Compose
+</details>
+
+<details>
+    <summary><b>Docker Compose</b></summary>
 * link multiple docker containers into a single composition, which can be installed and start up all at once
+</details>
+
 
 ## 2. Dockerfile
 * can use base Docker image on top to own Docker image
