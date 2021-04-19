@@ -15,17 +15,20 @@
 
 <details>
     <summary><b>Dockerfile</b></summary>
+
 * a set of instructions which are executed by docker command line tool
 </details>
 
 <details>
     <summary><b>Docker image</b></summary>
+
 * executes Dockerfile produces a Docker image, all needed files and instructions
 * Possible start multiple Docker containers from same Docker image
 </details>
 
 <details>
     <summary><b>Docker Compose</b></summary>
+
 * link multiple docker containers into a single composition, which can be installed and start up all at once
 </details>
 
