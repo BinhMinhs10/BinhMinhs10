@@ -94,3 +94,12 @@ docker exec -it <container-id> bash
 ```bash
 docker logs -f --until=2s <name container>
 ```
+## 6. Remove < none > image
+```bash
+docker images | grep none | awk '{ print $3; }' | xargs docker rmi --force
+```
+## 7. Debug docker
+add row at the end of Dockerfile 
+```docker
+CMD tail -f /dev/null
+```
