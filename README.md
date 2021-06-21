@@ -45,7 +45,7 @@
 </p>
 
 
-### Hi, I'm Minh 👋
+### Hi, I'm Minh :sparkles: :sparkles:
 I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Science, Artificial Intelligence, especially in NLP and platform related. Feel free to connect with me on Gmail or follow me on Github.
 
 
@@ -53,7 +53,7 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 <img src="https://media.giphy.com/media/S6q7p6G70qH6YVupi3/giphy.gif" alt="dev_object" align="right" width="350" height="420" />
 
 
-# Tutorial fundamental
+# Tutorial :tada:
 ## Readme Syntax [readmesyntax](readme_syntax.md) 
 - Practice online [makereadme](https://www.makeareadme.com/) to learn more 
 ## Tip Git [tipgit](TipGit.md)
