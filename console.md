@@ -1,7 +1,7 @@
-# Tips usefull with console
+# Tips usefull with console :tada: :tada:
 
 ## Author
-   **BinhMinhs10**
+   **BinhMinhs10** :sparkles:
 ### 1. List & Kill all with string `firefox` in command
 ```bash
 pgrep -fl firefox && pkill -f firefox
