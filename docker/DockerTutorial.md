@@ -66,6 +66,7 @@ sudo docker ps -a
 ```
 * build Dockerfile found in directory
 ```bash
+# use first time build
 sudo docker build -t electra:lastes .
 sudo docker-compose -f <compose file> build
 ```
