@@ -18,7 +18,11 @@ sudo ufw allow 10000:10050
 ### 3. Cleaning disk space
 * filter by file size
 ```bash
-du -h /home/user/source_Python/ | grep '^\s*[0-9\.]\+G'
+du -h /home/nbminh/source_Python/ | grep '^\s*[0-9\.]\+G'
+```
+* list size in directory
+```bash
+du -h --max-depth=1 /home/nbminh/.cache/
 ```
 ### 4. Pip Guide
 * Remove all items from the cache pip.
