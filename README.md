@@ -56,7 +56,7 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 # Tutorial :tada:
 ## Readme Syntax [readmesyntax](readme_syntax.md) 
 - Practice online [makereadme](https://www.makeareadme.com/) to learn more 
-## Tip Git [tipgit](TipGit.md)
+## Tip Git [tipgit](git/TipGit.md)
 - Contact me if you have more tips & trick.
 ## Usage full Command [console](console.md)
 - Contact me if you have more tips & trick.
