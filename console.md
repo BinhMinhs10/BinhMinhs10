@@ -44,3 +44,7 @@ grep -nr 'ㅎ' .
 virtualenv -p python3 venv
 source venv/bin/activate
 ```
+### 7. Restart sound output
+```
+pulseaudio -k
+```
