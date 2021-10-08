@@ -10,3 +10,13 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64
 import tensorflow as tf
 tf.config.list_physical_devices('GPU')
 ```
+
+## Uninstall Nvidia Driver
+
+Purge Nvidia Packages
+```bash
+dpkg -l | grep -i nvidia
+sudo apt-get remove --purge '^nvidia-.*'
+sudo apt autoremove
+sudo apt-get install ubuntu-desktop
+```
