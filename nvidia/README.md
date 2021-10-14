@@ -19,4 +19,5 @@ dpkg -l | grep -i nvidia
 sudo apt-get remove --purge '^nvidia-.*'
 sudo apt autoremove
 sudo apt-get install ubuntu-desktop
+sudo /usr/bin/nvidia-uninstall
 ```
