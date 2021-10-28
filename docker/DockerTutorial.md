@@ -86,7 +86,7 @@ docker container rm -f <container id>
 # 4. Run commands in Stopped Docker Containers
 ```bash
 docker commit <container id> debug/ubuntu
-docker run -it --rm --entrypoint sh debug/ubuntu
+docker run -v /home/hact/mrc:/data -it --rm --entrypoint sh debug/ubuntu
 ```
 ```bash
 docker exec -it <container-id> bash
