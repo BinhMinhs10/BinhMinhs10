@@ -42,11 +42,15 @@ $ git push origin --delete name_branch
 ```bash
 git commit --amend -m "message"
 ```
-### 9. Revert head
+### 9. Reset and redone its commit on top of origin/master
+```bash
+git reset --mixed origin/master
+```
+### 10. Revert head
 ```bash
 git revert head_hash
 ```
-### 10. Revert file after delete in local 
+### 11. Revert file after delete in local 
 * this restores the file status in the index
 ```bash
 $ git reset -- <file>
@@ -55,12 +59,12 @@ $ git reset -- <file>
 ```bash
 $ git checkout -- <file>
 ```
-### 11. Alias git commands
+### 12. Alias git commands
 ```bash
 git config --global alias.show-graph 'log --graph --pretty=oneline'
 git show-graph
 ```
-### 12. Empty message option
+### 13. Empty message option
 ```bash
 git commit --allow-empty-message -m ""
 ```
