@@ -3,7 +3,7 @@
    **Binh Minh**
 
 
-## 1. Docker containers là gì?
+# 1. Docker containers là gì?
 
 <details>
     <summary> <b> Docker containers </b> </summary>
@@ -33,7 +33,7 @@
 </details>
 
 
-## 2. Dockerfile
+# 2. Dockerfile
 * can use base Docker image on top to own Docker image
 * a set of file copied into Docker image
 * possible a network (TCP/UDP) port 
@@ -50,7 +50,7 @@ RUN apt-get install some-needed-app
 ARG tcpPort
 
 ```
-## 3. Docker Commands
+# 3. Docker Commands
 * list all docker image
 ```bash
 sudo docker images
@@ -91,15 +91,30 @@ docker run -v /home/hact/mrc:/data -it --rm --entrypoint /bin/bash debug/ubuntu
 ```bash
 docker exec -it <container-id> bash
 ```
-## 5. Retrieve logs until a specific point in time
+# 5. Retrieve logs until a specific point in time
 ```bash
 docker logs -f --until=2s <name container>
 ```
-## 6. Remove < none > image
+# 6. Remove < none > image
 ```bash
 docker images | grep none | awk '{ print $3; }' | xargs docker rmi --force
 ```
-## 7. Debug docker
+# 7. Access an NVIDIA GPU
+* prerequisites download and install the proper drivers
+* Install nvidia-container-runtime
+```bash
+apt-get install nvidia-container-runtime
+```
+* Ensure the `nvidia-container-runtime-hook` is accessible from `$PAHT`
+```bash
+which nvidia-container-runtime-hook
+``` 
+* Expose GPUs for use
+```bash
+docker run -it --rm --gpu all ubuntu:18.04 nvidia-smi
+```
+
+# 8. Debug docker
 add row at the end of Dockerfile 
 ```docker
 CMD tail -f /dev/null
