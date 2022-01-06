@@ -105,6 +105,11 @@ docker images | grep none | awk '{ print $3; }' | xargs docker rmi --force
 ```bash
 apt-get install nvidia-container-runtime
 ```
+* Flush changes and restart Docker 
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
 * Ensure the `nvidia-container-runtime-hook` is accessible from `$PAHT`
 ```bash
 which nvidia-container-runtime-hook
