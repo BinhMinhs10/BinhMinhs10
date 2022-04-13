@@ -48,3 +48,8 @@ source venv/bin/activate
 ```
 pulseaudio -k
 ```
+
+### 8. Fix firefox not play videos
+```
+sudo apt install ffmpeg
+```
