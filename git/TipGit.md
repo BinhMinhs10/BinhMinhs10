@@ -78,10 +78,11 @@ git remote -v
 git remote set-url origin git@github.com:xxx/xxx.git
 ```
 
+* ssh connect to port 22 host timeout
 ```
 ssh -T git@ssh.github.com
+# ssh: connect to host github.com port 22: Connection timed out
 ````
-ssh: connect to host github.com port 22: Connection timed out
 
 * Override SSH settings
 ```
@@ -97,5 +98,5 @@ Host github.com
 
 ```
 ssh -T git@github.com
+# Hi xxxxx! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-Hi xxxxx! You've successfully authenticated, but GitHub does not provide shell access.
