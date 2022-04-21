@@ -68,3 +68,34 @@ git show-graph
 ```bash
 git commit --allow-empty-message -m ""
 ```
+
+### 14. git-ssh 
+```
+git remote -v
+```
+* Set remote  
+```
+git remote set-url origin git@github.com:xxx/xxx.git
+```
+
+```
+ssh -T git@ssh.github.com
+````
+ssh: connect to host github.com port 22: Connection timed out
+
+* Override SSH settings
+```
+vim ~/.ssh/config
+```
+Add section below to it
+
+```
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+```
+
+```
+ssh -T git@github.com
+```
+Hi xxxxx! You've successfully authenticated, but GitHub does not provide shell access.
