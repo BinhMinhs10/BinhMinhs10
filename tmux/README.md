@@ -47,7 +47,7 @@ To create a window, in the Tmux terminal, we hit `Ctrl` + `b` + `c`. To kill the
 We select specific by hitting `Ctrl` + `b` + window id
 
 ### Create/Close Panes
-To split the pane vertically, we hit `Ctrl` + `b` + `%`. 
-To split the pane horizontally, we hit `Ctrl` + `b` + `"`. 
-To close the current pane, we we hit `Ctrl` + `b` + `x`.
+* To split the pane vertically, we hit `Ctrl` + `b` + `%`. 
+* To split the pane horizontally, we hit `Ctrl` + `b` + `"`. 
+* To close the current pane, we we hit `Ctrl` + `b` + `x`.
 
