@@ -57,13 +57,9 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 ## Readme Syntax [readmesyntax](readme_syntax.md) 
 - Practice online [makereadme](https://www.makeareadme.com/) to learn more 
 ## Tip Git [tipgit](git/TipGit.md)
-- Contact me if you have more tips & trick.
 ## Usage full Command [console](console.md)
-- Contact me if you have more tips & trick.
 ## Using Colab [googlecolab](Colab/colab.md)
-- Contact me if you have more tips & trick.
 ## Tutorial Docker [dockertutorial](docker/DockerTutorial.md)
-- Contact me if you have more tips & trick.
 ## Enjoy coding
 * [Decorator](ultis/design_pattern_decorator.py)
 * [Trick make Python faster than C++](ultis/python_faster_c.py)
@@ -71,6 +67,7 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
     * Solution: using Numba open source JIT compiler that translates into fast machine code
 * [Function arg](ultis/function_arguments.py)
 * [Icecream debugging](ultis/icecream_example.py)
+- Contact me if you have more tips & trick.
 
 [![BinhMinh's github stats](https://github-readme-stats.vercel.app/api?username=binhminhs10&show_icons=true&hide_border=true&theme=dark)](https://github.com/BinhMinhs10) 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BinhMinhs10&layout=compact" alt="BinhMinhs10" />
