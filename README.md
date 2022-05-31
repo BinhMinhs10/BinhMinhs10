@@ -54,12 +54,12 @@ I am a Data Scientist in the VNPT. Focusing on state-of-the-art work in Data Sci
 
 
 # Tutorial :tada:
-## Readme Syntax [readmesyntax](readme_syntax.md) 
+## [Readme Syntax](readme_syntax.md)
 - Practice online [makereadme](https://www.makeareadme.com/) to learn more 
-## Tip Git [tipgit](git/TipGit.md)
-## Usage full Command [console](console.md)
-## Using Colab [googlecolab](Colab/colab.md)
-## Tutorial Docker [dockertutorial](docker/DockerTutorial.md)
+## [Tip Git](git/TipGit.md)
+## [Usage full Command](console.md)
+## [Using Colab](Colab/colab.md)
+## [Tutorial Docker](docker/DockerTutorial.md)
 ## Enjoy coding
 * [Decorator](ultis/design_pattern_decorator.py)
 * [Trick make Python faster than C++](ultis/python_faster_c.py)
