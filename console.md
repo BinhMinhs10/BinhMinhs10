@@ -44,6 +44,13 @@ grep -nr 'ㅎ' .
 virtualenv -p python3 venv
 source venv/bin/activate
 ```
+
+* set site-package for virtualenv in activate file
+```bash
+PYTHONPATH='/media/nbminh/stuff/source_Python/env_hub/labenv/lib/python3.6/site-packages'
+export PYTHONPATH
+```
+
 ### 7. Restart sound output
 ```
 pulseaudio -k
