@@ -51,6 +51,12 @@ ARG tcpPort
 
 ```
 # 3. Docker Commands
+
+* restart docker service
+```bash
+systemctl start docker
+```
+
 * list all docker image
 ```bash
 sudo docker images
