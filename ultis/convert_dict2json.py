@@ -21,7 +21,7 @@ def main():
             word, index = line.split(' ')
             dict_j[word] = index
     out_file = open(args.json_file, "w", encoding='utf-8')
-    json.dump(dict_j, out_file, ensure_ascii=False)
+    json.dump(dict_j, out_file, ensure_ascii=False, indent=4)
     out_file.close()
 
 
