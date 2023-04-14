@@ -51,6 +51,11 @@ PYTHONPATH='/media/nbminh/stuff/source_Python/env_hub/labenv/lib/python3.6/site-
 export PYTHONPATH
 ```
 
+* Jupyter notebook with virtual environment after activate
+```python
+pip install jupyter
+```
+
 ### 7. Restart sound output
 ```
 pulseaudio -k
