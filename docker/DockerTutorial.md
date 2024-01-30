@@ -131,3 +131,15 @@ add row at the end of Dockerfile
 ```docker
 CMD tail -f /dev/null
 ```
+
+# 9. Clean Build Cache Disk
+```bash
+docker system df
+docker buildx prune -f
+```
+
+* Removing containers from the Docker cache
+```bash
+docker container prune -f
+```
+
