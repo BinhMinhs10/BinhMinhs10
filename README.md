@@ -20,17 +20,12 @@
  <img src="https://img.icons8.com/color/48/000000/google-cloud-platform.png" alt="google cloud"  width="20" height="20" />
  <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux"  width="20" height="20" />
  <img src="https://img.icons8.com/color/48/000000/docker.png" alt="docker"  width="20" height="20" />
- <img src="https://img.icons8.com/color/48/000000/mongodb.svg" alt="mongodb"  width="20" height="20" /> 
- <img src="https://img.icons8.com/color/48/000000/redis.svg" alt="redis"  width="20" height="20" /> 
  <img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" alt="mysql"  width="20" height="20" /> 
- <img src="https://img.icons8.com/color/48/000000/postgreesql.svg" alt="postgresql"  width="20" height="20" /> 
- <img src="https://img.icons8.com/color/48/000000/firebase.svg" alt="firebase"  width="20" height="20" /> 
  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch"  width="20" height="20" /> 
  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow"  width="20" height="20" /> 
  <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-ar21.svg" alt="apache cassandra"  width="20" height="20" /> 
  <img src="https://www.vectorlogo.zone/logos/influxdata/influxdata-ar21.svg" alt="influxdb"  width="20" height="20" /> 
  <img src="https://img.icons8.com/color/64/000000/oracle-logo.png" alt="oracle"  width="20" height="20" /> 
- <img src="https://img.icons8.com/color/48/000000/graphql.svg" alt="graphql"  width="20" height="20" /> 
  <img src="https://img.icons8.com/color/48/000000/jenkins.png" alt="jenkins"  width="20" height="20" /> 
  <img src="https://img.icons8.com/color/48/000000/nginx.png" alt="nginx"  width="20" height="20" />
  <img src="https://www.vectorlogo.zone/logos/ansible/ansible-ar21.svg" alt="ansible" height="30" /> 
