@@ -24,6 +24,10 @@ du -h /home/nbminh/source_Python/ | grep '^\s*[0-9\.]\+G'
 ```bash
 du -h --max-depth=1 /home/nbminh/.cache/
 ```
+* clear syslog file
+```bash
+sudo truncate -s 0 /var/log/syslog
+```
 ### 4. Pip Guide
 * Remove all items from the cache pip.
 ```bash
